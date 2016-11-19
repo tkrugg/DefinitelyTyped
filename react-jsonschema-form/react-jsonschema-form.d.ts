@@ -12,6 +12,7 @@ declare module "react-jsonschema-form" {
         formData?: any;
         widgets?: {};
         fields?: {};
+        FieldTemplate?: React.Component<any, any>;
         validate?: (formData: any, errors: any) => any;
         onChange?: (e: IChangeEvent) => any;
         onError?: (e: any) => any;
